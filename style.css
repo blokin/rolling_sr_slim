@@ -1,0 +1,191 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9fafb;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+nav a {
+  color: white;
+  margin-left: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a.button {
+  background-color: #2563eb;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+main {
+  max-width: 1750px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+}
+
+footer {
+  text-align: center;
+}
+
+section {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+h2 {
+  margin-top: 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"] {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button,
+input[type="submit"] {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.alert {
+  margin-top: 2rem;
+  background-color: #fef3c7;
+  color: #92400e;
+  border-left: 4px solid #f59e0b;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th, td {
+  border-bottom: 1px solid #ddd;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+#login td {
+  border: 0px;
+}
+
+th {
+  background-color: #f1f5f9;
+}
+
+td[colspan] {
+  text-align: center;
+  color: #888;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+#loader {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+.spinner {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 1.5em;
+  animation: spin 1s linear infinite;
+}
+
+.log-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #f9f9f9;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+  padding: 16px;
+  width: 100%;
+  max-width: 800px;
+}
+
+.log-card h3 {
+  margin: 0;
+  cursor: pointer;
+  color: #1e3a8a;
+}
+
+.log-files {
+  display: none;
+  margin-top: 12px;
+}
+
+.log-entry {
+  margin-bottom: 8px;
+}
+
+.log-entry a {
+  color: #007BFF;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.log-content {
+  margin-top: 6px;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  max-height: 300px;
+  overflow: auto;
+  font-family: monospace;
+  white-space: pre-wrap;
+  display: none;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+legend {
+  padding: 0 10px;
+  font-weight: bold;
+  color: #1e3a8a;
+}
